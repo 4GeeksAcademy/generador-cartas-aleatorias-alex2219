@@ -1,5 +1,38 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+    display: flex;
+    justify-content: center; 
+    margin: 0%;
+    padding-top: 15px;
+}
+#root{
+    font-family:'Times New Roman', Times, serif ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 200px;      
+    height: 300px;                
+    border-radius: 8px;     
+    margin: 0%;
+    padding: 0%;
+}
+#symbol-top{
+    color: red;
+    font-size: 90px;               
+    padding-left: 10px;
+    line-height: 0.8;
+}
+#value{
+    font-size: 70px;
+    align-self: center;
+    padding-top: 10px;   
+}
+#symbol-bottom{
+    color: red;
+    align-self: flex-end;
+    font-size: 90px;  
+             
+    padding-right: 10px;
 }
